@@ -9,7 +9,7 @@ A JavaFX desktop application for managing couriers and their packages based on z
 - Zone-based courier assignment
 - Proximity-based sorting
 
-## ✨ Features
+## Features
 
 - Add couriers with name, streets, zone center & radius
 - Add packages with recipient, address, and location
