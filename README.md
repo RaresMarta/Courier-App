@@ -9,39 +9,21 @@ A JavaFX desktop application for managing couriers and their packages based on z
 - Zone-based courier assignment
 - Proximity-based sorting
 
-## Features
+## ✨ Features
 
-- Add packages with:
-  - Recipient name
-  - Address
-  - (x, y) location
+- Add couriers with name, streets, zone center & radius
+- Add packages with recipient, address, and location
+- Auto-assign packages by street match or zone proximity
+- Courier windows show:
+  - Undelivered packages
+  - Street filter & distance-based sorting
+  - "Deliver" button
+- Global map view for all undelivered packages
+- Real-time UI updates via custom **Observer pattern**
 
-- Add couriers with:
-  - Name
-  - List of streets (comma-separated)
-  - Zone center (point)
-  - Zone radius (float)
-
-- Automatically assign packages to couriers if:
-  - The address matches one of their streets, or
-  - The location is inside their circular delivery zone
-
-- Each courier has a dedicated window:
-  - View undelivered packages
-  - Filter by street
-  - Sort by proximity to zone center
-  - Mark packages as delivered
-
-- Global "Map View" shows all undelivered packages
-
----
-
-## Technologies Used
-
-- Java 17
-- JavaFX
-- SQLite (via JDBC)
-- MVC pattern
-- Observer pattern for live updates
-
----
+## Run this project locally
+1. Clone the repository
+git clone https://github.com/your-username/courier-delivery-manager.git
+cd courier-delivery-manager
+2. Open the project in IntelliJ IDEA (or any JavaFX-ready IDE)
+3. Run the CourierApp.java file
