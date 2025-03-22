@@ -1,6 +1,5 @@
 package Domain;
 
-import Util.Point;
 
 import java.util.Objects;
 

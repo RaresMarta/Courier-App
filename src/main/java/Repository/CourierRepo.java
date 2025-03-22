@@ -1,7 +1,7 @@
 package Repository;
 
 import Domain.Courier;
-import Util.Point;
+import Domain.Point;
 
 import java.sql.*;
 import java.util.ArrayList;

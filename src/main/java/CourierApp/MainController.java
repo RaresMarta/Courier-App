@@ -3,12 +3,13 @@ package CourierApp;
 import Domain.Observer;
 import Domain.Package;
 import Domain.Courier;
+import Domain.Point;
 import Repository.CourierRepo;
 import Repository.PackageRepo;
 import Service.CService;
 import Service.PService;
 
-import Util.Point;
+import static Domain.Point.distance;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -22,8 +23,6 @@ import javafx.stage.Stage;
 import java.util.Comparator;
 import java.util.Objects;
 import java.util.function.Predicate;
-
-import static Util.Point.distance;
 
 public class MainController {
     public ListView pListView;
