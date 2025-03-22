@@ -4,7 +4,12 @@ A JavaFX desktop application for managing couriers and their packages based on z
 
 ---
 
-## ⚙️ Features
+## Highlights
+- Real-time UI updates via Observer pattern
+- Zone-based courier assignment
+- Proximity-based sorting
+
+## Features
 
 - Add packages with:
   - Recipient name
@@ -37,6 +42,6 @@ A JavaFX desktop application for managing couriers and their packages based on z
 - JavaFX
 - SQLite (via JDBC)
 - MVC pattern
-- Custom Observer pattern for live updates
+- Observer pattern for live updates
 
 ---
