@@ -22,12 +22,12 @@ A JavaFX desktop application for managing couriers and their packages based on z
 - Real-time UI updates via custom **Observer pattern**
 
 ## Run this project locally
-```bash
+
 # 1. Clone the repository
+```bash
 git clone https://github.com/your-username/courier-delivery-manager.git
 cd courier-delivery-manager
-
+```
 # 2. Open the project in IntelliJ IDEA (or any JavaFX-ready IDE)
 
 # 3. Run the CourierApp.java file
-```
